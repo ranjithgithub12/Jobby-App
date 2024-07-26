@@ -1,0 +1,160 @@
+.job-item-details-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 40px;
+}
+.total-contianer-job-item {
+  width: 100%;
+}
+.failure-container-job {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-item-details-success {
+  background-color: #202020;
+  width: 100%;
+  min-height: 30vh;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.job-item-description-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading-vist-link-contianer {
+  display: flex;
+  justify-content: space-between;
+}
+.job-item-description-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media (min-width: 767px) {
+  .job-item-description-heading {
+    font-size: 25px;
+  }
+}
+.company-visit-link {
+  text-decoration: none;
+  color: #b6c5ff;
+  font-size: 15px;
+  align-self: center;
+}
+
+@media (min-width: 767px) {
+  .company-visit-link {
+    font-size: 25px;
+  }
+}
+.job-item-description {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #ffffff;
+}
+@media (min-width: 767px) {
+  .job-item-description {
+    font-size: 17px;
+  }
+}
+
+.skill-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+@media (min-width: 767px) {
+  .skill-heading {
+    font-size: 25px;
+  }
+}
+.unorder-skills {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 00px;
+}
+.life-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media (min-width: 767px) {
+  .life-heading {
+    font-size: 30px;
+  }
+}
+.life-description-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 767px) {
+  .life-description-image-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.life-company-image {
+  width: 100%;
+  margin-left: 60px;
+}
+
+@media (max-width: 767px) {
+  .life-company-image {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .life-company-image {
+    width: 250px;
+  }
+}
+
+.life-description {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 767px) {
+  .life-description {
+    font-size: 18px;
+  }
+}
+
+.similar-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+@media (min-width: 767px) {
+  .similar-heading {
+    font-size: 25px;
+  }
+}
+.unorder-similar-job {
+  display: flex;
+  padding: 00px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .unorder-similar-job {
+    flex-direction: column;
+  }
+}

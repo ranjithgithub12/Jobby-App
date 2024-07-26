@@ -1,0 +1,45 @@
+.filter-group-container {
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .filter-group-container {
+    width: 30%;
+  }
+}
+
+.filter-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media (min-width: 767px) {
+  .filter-heading {
+    font-size: 30px;
+  }
+}
+
+.label-content {
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+@media (min-width: 767px) {
+  .label-content {
+    font-size: 15px;
+  }
+}
+.unorder-type-salary {
+  padding: 0px;
+}
+.list-of-type-salary {
+  list-style: none;
+}
+.salary-checkbox {
+  border-radius: 50%;
+}

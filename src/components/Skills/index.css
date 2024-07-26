@@ -1,0 +1,33 @@
+.list-of-skills {
+  width: 50%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.skill-image{
+  width: 50px;
+}
+@media (max-width: 767px) {
+  .skill-image {
+    width: 25px;
+  }
+}
+
+@media (min-width: 767px) {
+  .list-of-skills {
+    width: 33%;
+    margin-bottom: 40px;
+  }
+}
+.skill-name {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-left: 25px;
+}
+
+@media (min-width: 767px) {
+  .skill-name {
+    font-size: 20px;
+  }
+}
